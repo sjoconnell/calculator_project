@@ -79,7 +79,7 @@ a {
 }
 
 form#calc_form {
-    visibility: hidden;
+    display: none;
 }
 
 form#total {

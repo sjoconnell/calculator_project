@@ -1,0 +1,93 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family: arial;
+}
+
+div#calculator {
+    width: 405px;
+    height: 470px;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #999;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+div#total {
+    height: 70px;
+    width: 395px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    background-color: #FFF;
+    text-align: right;
+    font-size: 60px;
+}
+
+div#numbers {
+    margin: 0px;
+}
+
+a {
+    cursor: pointer;
+}
+
+#operators a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    float: left;
+    padding: 2px;
+    margin: 5px 9px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 39px;
+    background: yellow;
+}
+
+#numbers a {
+    display: block;
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 43px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px 15px;
+    background: blue;
+    border-radius: 10px;
+}
+
+#do_math {
+    cursor: pointer;
+    display: block;
+    height: 70px;
+    width: 370px;
+    padding: 10px;
+    margin: 5px 15px;
+    background: orange;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 43px;
+    text-decoration: none;
+}
+
+form#calc_form {
+    visibility: hidden;
+}
+
+form#total {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+input#total {
+    font-size: 30px;
+    text-align: center;
+}
